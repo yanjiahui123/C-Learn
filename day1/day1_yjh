@@ -1,0 +1,317 @@
+    1  ifconfig
+    2  sudo apt install net-tools
+    3  ifconfig
+    4  uname -a
+    5  cat /etc/issue
+    6  sudo apt-get update
+    7  sudo apt install net-tools
+    8  ifconfig
+    9  ping www.baidu.com
+   10  sudo apt install ssh
+   11  ps -elf|grep ssh
+   12  sudo apt install vim
+   13  ls
+   14  mkdir yjh
+   15  cd yjh
+   16  touch hello.c
+   17  vim hello.c 
+   18  python
+   19  sudo apt install python3
+   20  cd yjh/
+   21  cd wangpan/
+   22  ls
+   23  cd server/
+   24  ls
+   25  cd src/
+   26  ls
+   27  sudo ./server 192.168.248.128 3 3 3
+   28  sudo ./server 192.168.248.128 3 3
+   29  ls
+   30  vim main.c
+   31  ls
+   32  ctags
+   33  tags
+   34  ls
+   35  ctags --version
+   36  sudo apt-get install exuberant-ctags
+   37  ctags
+   38  ctags *.c
+   39  ls
+   40  vim cmd.c 
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd ../
+   45  ls
+   46  cp func.h /usr/include/
+   47  sudo cp func.h /usr/include/
+   48  cd server/
+   49  ls
+   50  cd src/
+   51  ls
+   52  vim main.c 
+   53  ls
+   54  vim cmd.c
+   55  ls
+   56  vim process_pool.h 
+   57  vim cmd.c 
+   58  ls
+   59  history 
+   60  ping www.baidu.com
+   61  sudo apt install manpages-posix-dev 
+   62  route
+   63  man posix
+   64  man POSIX
+   65  ls
+   66  cd yjh/
+   67  ls
+   68  vim hello.c 
+   69  git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+   70  sudo apt install git
+   71  git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+   72  ls
+   73  cd ~/.vimplus
+   74  ./install.sh
+   75  ./update.sh
+   76  cd ~
+   77  ls
+   78  cd yjh/
+   79  ls
+   80  vim hello.c 
+   81  vim test.c
+   82  make
+   83  gcc test.c 
+   84  ./a.out 
+   85  ls
+   86  rm a.out 
+   87  gcc -E test.c -o test.i
+   88  ls
+   89  cat test.i
+   90  vim test.i
+   91  grep -n "typedef.*FILE" test.i
+   92  gcc -S test.i -o test.s
+   93  ls
+   94  cat test.s
+   95  as test.s -o test.o
+   96  nm test.o
+   97  gcc test.o -o test
+   98  ./test 
+   99  ls
+  100  vim test1.c
+  101  gcc -E test.c -o test.i -Wall
+  102  gcc -S test.i -o test.s
+  103  as test.s -o test.o
+  104  ls
+  105  gcc -E test.c -o test1.i -Wall
+  106  gcc -S test.lsi -o test.s
+  107  ls
+  108  rm test*
+  109  ls
+  110  vim test.c
+  111  gcc -E test.c -o test.i -Wall
+  112  gcc -S test.i -o test.s
+  113  as test.s -o test.o
+  114  gcc test.o -o test
+  115  ./test 
+  116  ls
+  117  rm test
+  118  rm test.[ios]
+  119  ls
+  120  gcc test.c -Wall
+  121  ls
+  122  rm a.out 
+  123  vim test.c 
+  124  gcc -E test.c -o test.ii
+  125  mv test.c test.C
+  126  gcc -E test.C -o test.ii
+  127  ls
+  128  cat test.ii
+  129  gcc -S test.ii -o test.s
+  130  as test.s -o test.o
+  131  gcc test.o -o test
+  132  ls
+  133  rm test*
+  134  ls
+  135  vim test.cpp
+  136  g++ test.cpp 
+  137  ./a.out 
+  138  ls
+  139  vim makefile
+  140  vim main.c 
+  141  ls
+  142  vim main.c
+  143  vim func.c
+  144  make
+  145  ls
+  146  vim main.c
+  147  vim func.c 
+  148  make
+  149  ls
+  150  tar xzvf day16.tar.gz 
+  151  ls
+  152  rm day16.tar.gz 
+  153  cd day16/
+  154  ls
+  155  vim dynamic/
+  156  cd dynamic/
+  157  ls
+  158  cd ..
+  159  ls
+  160  cd gcc
+  161  ls
+  162  cd ..
+  163  ls
+  164  cd gdb
+  165  ls
+  166  gdb a.out 
+  167  ls
+  168  cd ..
+  169  ls
+  170  cd vim/
+  171  ls
+  172  cd ..
+  173  ls
+  174  cd warning/
+  175  ls
+  176  cd ..
+  177  ls
+  178  cd ..
+  179  ls
+  180  tar xzvf day18.tar.gz 
+  181  ls
+  182  rm day18.tar.gz 
+  183  ls
+  184  cd day1
+  185  cd day18
+  186  ls
+  187  cd f
+  188  cd file/
+  189  ls
+  190  vim makefile 
+  191  ls
+  192  cd ..
+  193  ls
+  194  cd ..
+  195  ls
+  196  cd ..
+  197  ls
+  198  cd yjh/
+  199  ls
+  200  vim makefile 
+  201  make
+  202  man 2 getc
+  203  man getc
+  204  man putc
+  205  man mode_t
+  206  man chmod
+  207  man 2 chmod
+  208  ls
+  209  tar xzvf packet.tar.gz 
+  210  ls
+  211  mkdir wangpan
+  212  ls
+  213  cd wangpan/
+  214  ls
+  215  tar xzvf *.gz
+  216  tar xzvf client.tar.gz 
+  217  tar xzvf client1.tar.gz 
+  218  tar xzvf server.tar.gz 
+  219  tar xzvf server1.tar.gz 
+  220  ls
+  221  rm *.c
+  222  ls
+  223  cd client/
+  224  ls
+  225  ./client 192.168.248.128
+  226  ./client 192.168.248.128 3
+  227  ls
+  228  vim client.h
+  229  cd ../../
+  230  ls
+  231  cd wangpan/
+  232  cd client/
+  233  ls
+  234  vim deal_cmd.c 
+  235  vim judge.c 
+  236  ls
+  237  vim test.c
+  238  ls
+  239  cd ~/.vimrc
+  240  vim ~/.vimrc
+  241  vim judge.c 
+  242  man 2 mkdir
+  243  vim judge.c 
+  244  cd yjh/wangpan/server/
+  245  cd src/
+  246  vim cmd.c 
+  247  cd yjh/wangpan/client/
+  248  ls
+  249  vim judge.c 
+  250  clear
+  251  cd yjh/wangpan/server/src/
+  252  ls
+  253  vim cmd.c 
+  254  cd ../../../
+  255  cd lianxi/
+  256  mkfifo gd
+  257  ls
+  258  echo "string" > gd
+  259  cd ..
+  260  cd wangpan/server/src/
+  261  ls
+  262  vim main.c 
+  263  clear
+  264  cd yjh/wangpan/client/
+  265  vim judge.c 
+  266  man ctime
+  267  cd ../../
+  268  ls
+  269  vim main.c
+  270  vim func.
+  271  vim test.c
+  272  gcc test.c -o test
+  273  ./test 
+  274  ll
+  275  man getpwuid
+  276  cd wangpan/client/
+  277  vim judge.c 
+  278  cd ..
+  279  ls
+  280  mkdir lianxi
+  281  cd lianxi
+  282  cat gd
+  283  cd ../../
+  284  ls
+  285  cd yjh/wangpan/client/
+  286  vim makefile 
+  287  ls
+  288  vim client.c
+  289  cd yjh/wangpan/client/
+  290  vim client
+  291  vim client.c
+  292  cd yjh/wangpan/server/src/
+  293  ls
+  294  vim main.c
+  295  clear
+  296  cd yjh/wangpan/server/src/
+  297  vim main.c 
+  298  clear
+  299  cd yjh/wangpan/client/
+  300  vim client.c
+  301  ifconfig
+  302  python
+  303  sudo apt install ssh
+  304  ps -elf|grep ssh
+  305  ps -elf|grep sshd
+  306  git clone https://github.com/yanjiahui123/C-Learn.git
+  307  ls
+  308  cd ~
+  309  ls
+  310  cd C-Learn/
+  311  ld
+  312  ls
+  313  mkdir day1
+  314  ls
+  315  cd day1
+  316  history
+  317  history > day1_yjh
