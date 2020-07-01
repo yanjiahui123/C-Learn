@@ -1,0 +1,167 @@
+    1  ls
+    2  cat etc/passwd
+    3  ls
+    4  cd ..
+    5  ls
+    6  rm yanjiahui.tar.jz 
+    7  sudo rm yanjiahui.tar.jz 
+    8  cd ~
+    9  git apt install git
+   10  sudo git apt install git
+   11  su
+   12  apt install git
+   13  sudo apt install git
+   14  ls
+   15  git clone https://github.com/yanjiahui123/C-Learn.git
+   16  apt install git
+   17  rm /var/lib/dpkg/lock-frontend
+   18  apt install git
+   19  sudo apt install git
+   20  apt-get install git
+   21  rm /var/lib/dpkg/lock-frontend - open
+   22  rm /var/lib/dpkg/lock-frontend
+   23  apt install git
+   24  su
+   25  ls
+   26  ifconfig
+   27  sudo apt update
+   28  sudo apt install ssh
+   29  ps -elf| grep sshd
+   30  sudo apt install vim
+   31  sudo apt install git
+   32  git --version
+   33  cd ~
+   34  git clone https://github.com/yanjiahui123/C-Learn.git
+   35  ls
+   36  cd C
+   37  cd C-Learn/
+   38  ls
+   39  cd day1/
+   40  ls
+   41  sudo apt install gcc
+   42  ls
+   43  cd 
+   44  cd C-Learn/
+   45  ls
+   46  cd day1/
+   47  ls
+   48  d ..
+   49  cd ..
+   50  find . -name "*yjh"
+   51  find . -name "2020*"
+   52  cd C
+   53  cd C-Learn/
+   54  ls
+   55  date
+   56  find . -mmin -5
+   57  find . -ctime -5
+   58  clear
+   59  who
+   60  ls
+   61  pull origin master
+   62  git pull origin master
+   63  ls
+   64  cd day2/
+   65  ls
+   66  echo helloworld > main.c
+   67  ls
+   68  cd ..
+   69  find . -name main.c -exec ls -l {} \;
+   70  find . -name main.c |xargs ls -l
+   71  find . -name main.c |xargs rm -rf
+   72  ls
+   73  cd day2
+   74  ls
+   75  df
+   76  df -h
+   77  cat etc/issue
+   78  cat /etc/issue
+   79  uname -a
+   80  ls
+   81  du -h
+   82  ll
+   83  ll -h
+   84  cat /etc/passwd
+   85  cat /etc/shadow
+   86  sudo cat /etc/shadow
+   87  ls
+   88  cd ../..
+   89  ls
+   90  cd /usr/include/
+   91  ls
+   92  find . -name "fun*"
+   93  cd ~
+   94  ls
+   95  cd C-Learn/
+   96  LS
+   97  ls
+   98  cd day2
+   99  ls
+  100  file 20200630_yjh 
+  101  man find
+  102  echo
+  103  echo -n
+  104  ls
+  105  cd ..
+  106  ls
+  107  sudo find / -name "echo"
+  108  cd /bin/echo
+  109  cd ..
+  110  cd /bin/echo
+  111  cd /bin
+  112  ls
+  113  find . -name "echo" | ll
+  114  find . -name "echo" 
+  115  find . -name "echo"|xargs ll 
+  116  find . -name "echo"|xargs ls -l
+  117  ls
+  118  cd ~
+  119  cd C
+  120  cd C-Learn/
+  121  cd day2
+  122  ls
+  123  cat hanzi.txt 
+  124  vim hanzi.txt 
+  125  ls
+  126  vim hanzi.txt 
+  127  iconv -f gbk -t utf-8 hanzi.txt > hanzi1.txt 
+  128  iconv -f gbk -t utf-8 hanzi.txt >hanzi1.txt 
+  129  iconv -f gbk -t utf-8 hanzi.txt >hanzi_linux 
+  130  iconv -f gb2132 -t utf-8 hanzi.txt >hanzi_linux 
+  131  iconv -f gb2312 -t utf-8 hanzi.txt >hanzi_linux 
+  132  ls
+  133  cat hanzi_linux 
+  134  vim hanzi_linux 
+  135  rm hanzi_linux 
+  136  ls
+  137  rm hanzi1.txt 
+  138  ls
+  139  cat hanzi.txt 
+  140  ls
+  141  vim main.c
+  142  grep main mian.c
+  143  grep main main.c
+  144  ls
+  145  vim main.c 
+  146  grep int main.c
+  147  grep \;$ main.c
+  148  grep p*f main.c
+  149  grep p.*f main.c
+  150  man grep
+  151  grep p. main.c
+  152  grep p.*f main.c
+  153  grep ^$ main.c
+  154  grep ^$ main.c -n
+  155  ls
+  156  vim main.c 
+  157  grep \^ main.c
+  158  grep -F ^ main.c
+  159  man grep
+  160  find . -name "echo"|xargs ls -l
+  161  ls
+  162  cd C-Learn/
+  163  ls
+  164  mkdir day3
+  165  cd day3
+  166  ls
+  167  history > day3_linux
